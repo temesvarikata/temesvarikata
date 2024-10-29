@@ -1,0 +1,53 @@
+
+    <!DOCTYPE html>
+    <html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólió</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Üdvözöllek a Portfólióm oldalán!</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Rólam</a></li>
+                    <li><a href="#projects">Projektek</a></li>
+                    <li><a href="#contact">Kapcsolat</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section id="about">
+            <h2>Rólam</h2>
+            <img src="profil.jpg" alt="Profilkép" class="profile-pic"> <!-- Profilkép hozzáadása -->
+            <p>Temesvári Kata vagyok első féléves hallgató a BME-n.</p>
+        </section>
+    
+        <section id="projects">
+            <h2>Projektek</h2>
+            <div id="project-list"></div>
+        </section>
+    
+        <section id="contact">
+            <h2>Kapcsolat</h2>
+            <form id="contact-form">
+                <label for="name">Név:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Üzenet:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Küldés</button>
+            </form>
+        </section>
+    
+        <footer>
+            <p>&copy; 2024 Temesvári Kata</p>
+        </footer>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
